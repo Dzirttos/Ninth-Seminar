@@ -12,13 +12,13 @@ int n = Convert.ToInt32(Console.ReadLine());
 if (m > n)
 {
     Console.WriteLine("The first and last numbers have been switched:");
-    Console.Write($"{n}, {m} ->");
+    Console.Write($"The summary between numbers {n} and {m} is");
     SumBetweenNumbers(n, m, 0);
 }
 
 else
 {
-    Console.Write($"{m}, {n} ->");
+    Console.Write($"The summary between numbers {n} and {m} is");
     SumBetweenNumbers(m, n, 0);
 }
 
